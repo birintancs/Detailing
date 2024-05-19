@@ -10,9 +10,8 @@ const Nav = () => {
     }
     return (
         <>
-        <header>
             <div className="logo">
-                <img src="logo.png" alt="website logo" />
+                <img src="logo.png" alt="" />
             </div>
             <nav ref={navRef}>
                 <ul className='menu'>
@@ -29,8 +28,7 @@ const Nav = () => {
             <button className='nav-btn' onClick={showNav}>
                 <FaBars/>
             </button>
-            <button className="btn-cta">BOOK NOW</button>
-        </header>
+            <button className="btn-cta"><a href="">Book Now</a></button>
         </>
     )
 }
