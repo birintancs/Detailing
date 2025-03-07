@@ -1,3 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Fjalla+One&display=swap');
+
 .contact-main{
     background-color: white;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 15px 100px;
+}
+.contact-intro {
+    padding-bottom: 80px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.contact-header-underline {
+    width: 225px;
+    height: 12px;
+    margin: 0px auto 0;
+    position: relative;
+}
+.contact-header-underline::before {
+    content: '';
+    width: 130px;
+    height: 2.5px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact-header-underline::after {
+    content: '';
+    width: 130px;
+    height: 2.5px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.communications-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 100px;
+    /* gap: 100px; */
+    margin-bottom: 80px;
+}
+.communcation-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    width: 100%;
+}
+.communcation-box .communication-header{
+    /* color: red; */
+    font-size: 1.8rem;
+}
+.communcation-box .communication-subheader {
+    font-size: 1.25rem;
+}
+.contact-icon {
+    width: 50px;
+    height: 50px;
+}
+/* Message Box */
+.messageBox-container {
+    border: 2.25px solid black;
+    border-radius: 10px;
+    padding: 40px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 950px; /* Adjust as necessary */
+    margin: 0 auto;
+}
+.messageBox-container .messageBox-header {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    align-self: flex-start;
+}
+
+.contactInfo-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    /* border: 1px dotted red; */
+    width: 100%; 
+    margin-bottom: 45px;
+}
+.contactInfo_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 100%;
+    gap: 15px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    max-width: 100%;
+}
+.input label {
+    font-size: 1.3rem;
+    margin-bottom: 7.5px;
+}
+.input input {
+    width: 100%;
+    height: 57.5px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    font-size: 1.25rem;
+    padding: 15px;
+}
+.input-message {
+    width: 100%;
+}
+.input-message textarea {
+    width: 100%;
+    height: 200px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+.important {
+    margin-left: 2px;
+    color: red;
+}
+
+.message-submit {
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #8f65da;
+    /* background-color: #2b0076; */
+    font-size: 1.3rem;
+    /* padding: 15px 50px; */
+    /* border-radius: 20px; */
+    cursor: pointer;
+
+    padding: 15px 75px;
+    border-radius: 50px;
+    /* color: #1e1859; */
+    /* background: transparent; */
+    /* font-size: 15px; */
+    font-weight: 700;
+    border: 1px solid #dbd9e6;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.message-submit:hover {
+    /* color: #faf9ff; */
+    background-color: #7e56c3;
+    /* box-shadow: 1px 1px 5px black; */
+    /* background-color: #a57ffb; Lighter shade of purple */
+    transform: scale(1.05); /* Slightly larger on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }

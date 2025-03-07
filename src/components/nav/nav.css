@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Fjalla+One&display=swap');
 
 
 * {
@@ -9,39 +10,79 @@
     
 }
 :root {
-    --mainColor: #242424;
+    --mainColor: #161616;
     --secondaryColor: red;
     --textColor: white;
 }
-header {
-    position: sticky;
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+.name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 115px; */
+}
+.nav-logo-name {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    letter-spacing: 1.25px;
+    /* color: #D058F3; */
+    color: #8f65da;
+}
+.nav-logo-1 {
+    margin-right: 100px;
+    width: 130px;
+    height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/Spadez-Auto-Care_LOGO.png');
+    /* position: relative; */
+    /* z-index: ; */
+    /* background-color: #666; */
+    /* top: 0;
+    left: 0; */
+    /* z-index: -1; */
+    border: one;
+}
+#navHead {
+    position: fixed;
     top: 0;
     z-index: 1000;
     width: 100%;
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-self: flex-start;
 
-    padding: 0 2rem;
-    background-color: var(--mainColor);
+    padding: 5.25rem 5rem;
+    background-color: rgba(23, 23, 23, 0.92);
     color: var(--textColor);
+    transition: all 0.5s;
 }
 nav .menu {
     list-style-type: none;
     display: flex;
-    gap: 1rem;
+    gap: 1.25rem;
+    /* margin-left: -115px; */
 }
 nav a {
-    margin: 0 0.95rem;
+    /* margin: 0 0.95rem; */
     color: var(--textColor);
+    font-family: "Fjalla One", sans-serif;
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 1.5px;
     border-bottom: 2px;
-    transition: color 0.095s ease-in;
+    transition: color 0.11s ease-in;
+    text-shadow: 0 0 10px #2b0076;
     /* font-family: 'Roboto', sans-serif; */
     /* font-weight: 500; */
     /* font-family: 'Barlow Semi Condensed', sans-serif; */
@@ -51,9 +92,11 @@ nav a:hover {
     color: #8f65da;
     border-bottom: 2px solid;
     border-color: #8f65da;
+    /* text-shadow: 0 0 5px #7939be; */
 }
 
 header .nav-btn {
+    position: absolute;
     padding: 5px;
     cursor: pointer;
     background: transparent;
@@ -76,12 +119,6 @@ header .nav-btn {
     border: none;
     box-shadow: 0px 0px 10px black;
     order: 1;
-}
-
-.logo {
-    border: 1px solid red;
-    width: 3rem;
-    height: 40px;
 }
 
 @media only screen and (max-width: 1024px){

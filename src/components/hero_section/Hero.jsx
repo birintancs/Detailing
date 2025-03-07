@@ -5,9 +5,11 @@ const Hero = () => {
         <div className="hero">
             <img src="" alt="" className="hero-background"/>
             <div className="hero-content">
-                <h1 className="hero-header">What do you do/offer (service)</h1>
-                <p className="hero-sub">What im gonna do to your car/ HOW IM GOING TO HELP YOU/ Why you deserve/ etc</p>
-                <button className="hero-btn"><a href="">Book Now</a></button>
+                <div className="hero-content-intro">
+                    <h1 className="hero-header">DRIVE CLEAN, FEEL PROUD</h1>
+                    <p className="hero-sub">Preserve your vehicle’s value and achieve a sparkling shine inside and out</p>
+                </div>
+                <button className="cta-btn"><a href="#packages">SCHEDULE NOW</a></button>
             </div>
         </div>
     )

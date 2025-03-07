@@ -17,7 +17,7 @@ const Package = () => {
         
         <section className="packages-main-section">
             <div className="packages-main">
-                <div className="package-intro">
+                <div className="package-intro" id="packages">
                     <h2 className="packages-main-header">PACKAGES</h2>
                     <div className="package-header-underline"></div>
                 </div>
@@ -25,10 +25,10 @@ const Package = () => {
                 <div className="package-table_wrapper">
                     <div className="pricing-cards">
                         <div className="row">
+                        
                             <div className="card">
                                 <div className="card-pricing_header">
-                                    <h4>Interior</h4>
-                                    <p>Basic Interior</p>
+                                    <h4>Interior Package</h4>
                                     <h1 className="card-pricing_price"><span>$</span>45</h1>
                                 </div>
                                 <ul className="card-pricing_list">
@@ -43,15 +43,14 @@ const Package = () => {
                             </div>
                             <div className="card">
                                 <div className="card-pricing_header">
-                                    <h4>Exterior</h4>
-                                    <p>Basic Interior</p>
+                                    <h4>Exterior Package</h4>
                                     <h1 className="card-pricing_price"><span>$</span>45</h1>
                                 </div>
                                 <ul className="card-pricing_list">
-                                    <li>Thorough Vacuum</li>
-                                    <li>Upholstery shampooed and steam cleaned</li>
-                                    <li>Windows Cleaned</li>
-                                    <li>Thorough Cleaning of Plastics, Panels, Consoles, and vents</li>
+                                    <li>Hand washing and drying of the vehicle exterior</li>
+                                    <li>Wheel and tire cleaning and dressing</li>
+                                    <li>Application of Carnauba Wax for Maximum Shine and Protection</li>
+                                    <li>Removal of bugs, tar, and other road contaminants</li>
                                 </ul>
                                 <div className="card-pricing-cta">
                                     <button className="cta-btn">I want this</button>
@@ -59,47 +58,11 @@ const Package = () => {
                             </div>
                             <div className="card">
                                 <div className="card-pricing_header">
-                                    <h4>Exterior</h4>
-                                    <p>Basic Interior</p>
-                                    <h1 className="card-pricing_price"><span>$</span>45</h1>
+                                    <h4>Complete Care Package</h4>
+                                    <h1 className="card-pricing_price"><span>$</span>80</h1>
                                 </div>
                                 <ul className="card-pricing_list">
-                                    <li>Thorough Vacuum</li>
-                                    <li>Upholstery shampooed and steam cleaned</li>
-                                    <li>Windows Cleaned</li>
-                                    <li>Thorough Cleaning of Plastics, Panels, Consoles, and vents</li>
-                                </ul>
-                                <div className="card-pricing-cta">
-                                    <button className="cta-btn">I want this</button>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-pricing_header">
-                                    <h4>Exterior</h4>
-                                    <p>Basic Interior</p>
-                                    <h1 className="card-pricing_price"><span>$</span>45</h1>
-                                </div>
-                                <ul className="card-pricing_list">
-                                    <li>Thorough Vacuum</li>
-                                    <li>Upholstery shampooed and steam cleaned</li>
-                                    <li>Windows Cleaned</li>
-                                    <li>Thorough Cleaning of Plastics, Panels, Consoles, and vents</li>
-                                </ul>
-                                <div className="card-pricing-cta">
-                                    <button className="cta-btn">I want this</button>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-pricing_header">
-                                    <h4>Winter</h4>
-                                    <p>Basic Interior</p>
-                                    <h1 className="card-pricing_price"><span>$</span>45</h1>
-                                </div>
-                                <ul className="card-pricing_list">
-                                    <li>Thorough Vacuum</li>
-                                    <li>Upholstery shampooed and steam cleaned</li>
-                                    <li>Windows Cleaned</li>
-                                    <li>Thorough Cleaning of Plastics, Panels, Consoles, and vents</li>
+                                    <li>All Services from Interior & Exterior Packages</li>
                                 </ul>
                                 <div className="card-pricing-cta">
                                     <button className="cta-btn">I want this</button>

@@ -3,7 +3,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
+  font-family: "Fjalla One", sans-serif;
   /* font-family: 'roboto', sans-serif */
 }
 
@@ -18,7 +19,7 @@ body {
   width: 100%;
   overflow: initial;
   /* border: 4px solid orange; */
-  background-color: #999;
+  /* background-color: #999; */
 }
 .COLOR-PALETTE {
   color: #A5AbAf;
@@ -27,4 +28,61 @@ body {
   color: #2f2a25;
   color: #d64218;
   color: #32373d;
+}
+
+.logo {
+  /* border: 1px solid blue; */
+  max-width: 300px;
+  max-height: 100px;
+}
+
+.cta-btn {
+  color: white;
+  position: relative; /* For positioning the pseudo-element */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+  /* background: linear-gradient(to right, #7e56c3 50%, #8f65da 50%); */
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease, color 0.3s ease;
+  
+
+  cursor: pointer;
+  /* padding: 1rem 4rem; */
+  /* font-size: 1.3rem; */
+  /* border-radius: 15px; */
+  outline: none;
+  border: none;
+  outline: none;
+  /* background-color: #8f65da; */
+  font-size: 1.3rem;
+  padding: 15px 50px;
+  border-radius: 48px;
+  /* font-weight: 700; */
+  /* padding: 10px 25px;
+  border-radius: 7px; */
+  box-shadow: 0px 0px 1px black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: white;
+  color: #333333;
+  background: linear-gradient(to right, #7939be 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+.cta-btn:hover {
+  /* /* background-color: #555; */
+  background-position: left bottom;
+  transform: scale(1.01);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.05);
+  color: white;
+  background-color: rgb(100, 100, 100);
+  background-position: left bottom;
+}
+
+.cta-btn a {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.3rem;
+  color: inherit;
+  text-decoration: none;
 }
